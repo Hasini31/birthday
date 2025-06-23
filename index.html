@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Sruthi!</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+  <!-- 🎵 Birthday Song -->
+<audio id="birthdayAudio" src="song.mp3" preload="auto"></audio>
+
+<!-- ⏯️ Pause/Play Button -->
+<button id="musicBtn">⏸ Pause Music</button>
+
+  <div class="black-screen" onclick="startSurprise()">
+    <p>🎁 Tap to reveal the surprise 🎁</p>
+  </div>
+
+  <div class="main-content" id="mainContent">
+    <canvas id="confetti-canvas"></canvas>
+
+    <div class="balloon-container" id="balloonContainer"></div>
+    <div class="floating-photos">
+  <img src="photo1.jpg" class="float-photo">
+  <img src="photo2.jpg" class="float-photo">
+  <img src="photo3.jpg" class="float-photo">
+  <img src="photo4.jpg" class="float-photo">
+  <img src="photo5.jpg" class="float-photo">
+  <img src="photo6.jpg" class="float-photo">
+  <img src="photo7.jpg" class="float-photo">
+  <img src="photo8.jpg" class="float-photo">
+  <img src="photo9.jpg" class="float-photo">
+</div>
+
+
+    <img src="sruthi.jpg" alt="Sruthi's Photo" class="photo" />
+
+    <div class="cake">
+      <div class="cake-top">🎂</div>
+      <h1>Happy Birthday<br><span>Sruthi</span></h1>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
